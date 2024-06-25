@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+<div class="container text-center my-5">
+  <div class="content w-75 m-auto p-5">
+    <h1>Smart Login System</h1>
+    <div class=" input-group input-group-sm mb-3">
+      <input oninput="validationName()" id="signName" placeholder="ENTER YOUR NAME" type="text" class="inputs form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <p id="massgName" class="w-100 d-none alert alert-danger">invalid pattern </p>
+    </div>
+    <div class="input-group input-group-sm mb-3">
+      <input oninput="validationEmail()" id="signEmail" placeholder="ENTER YOUR EMAIL" type="text" class="inputs form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <p id="massgEmail" class="w-100 d-none alert alert-danger">invalid EMAIL </p>
+    </div>
+    <div class="input-group input-group-sm mb-3">
+      <input  id="signPassword"  placeholder="ENTER YOUR PASSWORD" type="password" class="inputs form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <p id="alertRegister" class="d-none m-3 text-danger" ></p>
+    <button type="button" id="signButton" class="btn btn-outline-info w-100 my-3">sign up</button>
+    <p class="d-none m-3 text-success" id="sucssRestair">sucss</p>
+    <p class="m-3 text-white" id="sucssRestair">are you have already email? <a href="login.html">sing in</a></p>
+    
+    
+  </div>
+</div>
+    <script src="test.js"></script>
+  </body>
+</html>

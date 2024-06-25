@@ -1,0 +1,31 @@
+body{
+  background-color: #24353F!important;
+}
+.content{
+  background-color: #24353F;
+  box-shadow: 1px 1px 20px black;
+}
+.content input{
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.content h1{
+  color: #179FB5;
+}
+.content a{
+  text-decoration: none ;
+  color: white;
+}
+.logout a{
+  text-decoration: none;
+  color: #179FB5;
+
+}
+.all h2{
+  color: #179FB5;
+
+}
+#welcom{
+  color: #fff;
+}
